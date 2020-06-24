@@ -26,6 +26,17 @@ public class Payroll
             emp=givenUser;
                  
         }
+   public double getSalary(){
+       return Salary;
+   }
+   public void setSalary(double Salary){
+       this.Salary=Salary;
+   }
+   public double getBonus(){
+       return bonus;
+   }public void setBonus(double bonus){
+       this.bonus=bonus;
+   }
       
      
     
